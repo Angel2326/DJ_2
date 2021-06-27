@@ -175,9 +175,6 @@ AUTHENTICATION_BACKENDS = (
     'social_core.backends.vk.VKOAuth2',
 )
 
-SOCIAL_AUTH_VK_OATH2_KEY = '7884800'
-SOCIAL_AUTH_VK_OATH2_SECRET = 'cUrXy8awiNUrdxhPmxdi'
+SOCIAL_AUTH_VK_OAUTH2_KEY = '7884800'
+SOCIAL_AUTH_VK_OAUTH2_SECRET = 'cUrXy8awiNUrdxhPmxdi'
 
-LOGIN_URL = '/login-form/' 
-LOGIN_REDIRECT_URL = '/logged-in/' 
-LOGIN_ERROR_URL = '/login-error/' 
